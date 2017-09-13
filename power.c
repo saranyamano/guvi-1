@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int base,exp,result=1;
+printf("\nEnter the base number");
+scanf("%d",&base);
+printf("\nEnter the exponent");
+scanf("%d",&exp);
+while(exp=!0)
+{
+result*=base;
+--exp;
+}
+printf("\nAnswer =%11d",result);
+return 0;
+}
