@@ -1,16 +1,21 @@
 #include<stdio.h>
-void main()
+int main()
 {
-int n,a,d,val,sum=0,i;
+int n,a,d,tn,sum=0,i;
 printf("Enter the no of terms in AP");
 scanf("%d",&n);
 printf("Enter the first term and common difference in AP");
 scanf("%d %d",&a,&d);
-val=a;
-for(i=0;i<n;i++)
-{
-printf("%d",value);
-sum=sum+val;
-val=val+d;
-}
-}
+sum=(n(2a+(n-1)d))/2;
+  tn=a+(n-1)d;
+  for(i=a;i<tn;i++)
+  {
+    if(i!=tn)
+    {
+      printf("%d%,i);
+             else
+             printf("%d"=%d",i,sum);
+                    }
+                    return 0;
+                    }
+                    }
