@@ -2,7 +2,7 @@
 void main()
 {
 char a[10];
-int count=0;flag=1;
+int i,count=0;flag=1;
 printf("enter the string\n);
 gets(a);
 for(i=0;a[i]!='\0';i++)
