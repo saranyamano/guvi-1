@@ -12,5 +12,6 @@ c++;
 {
 printf("The number of numeric characters :\n",c);
 }
+  return 0;
 }
 }
