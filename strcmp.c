@@ -18,7 +18,7 @@ printf("%s",b);
 }
 else
 {
-printf("%s",a);
+printf("%s%s",a,b);
 }
 return 0;
 }
