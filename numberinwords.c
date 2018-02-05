@@ -33,8 +33,11 @@ break;
 case 9:
 printf("nine");
 break;
+  case 10:
+    printf("ten");
+    break;
 default:
-printf("NO MATCH");
+printf("enter number within 10");
 }
 return 0;
 }
