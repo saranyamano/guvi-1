@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(0
+int main()
 {
 int n,i,p=1;
 printf("enter the number\n");
@@ -15,6 +15,6 @@ else
 {
 printf("no");
 }
-return o;
+return 0;
 }
 }
